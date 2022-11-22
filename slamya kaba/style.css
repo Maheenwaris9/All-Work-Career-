@@ -61,7 +61,7 @@
 
 /* header */
 .head1{
-    background-image: url("img1.jpg");
+    background-image: url("asset/img1.jpg");
     background-color: black;
     background-repeat: no-repeat;
     /* background-position: center; */
@@ -168,7 +168,7 @@
 
 /* footer */
 .footmain{
-    background-image: url("img2.jpg");
+    background-image: url("asset/img2.jpg");
     height: 70vh;
     background-size: cover;
     background-position: center;
