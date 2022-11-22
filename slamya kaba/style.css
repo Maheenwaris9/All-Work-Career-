@@ -155,8 +155,9 @@
     justify-content: space-between;
     font-size: 30px;
 }
-.b7{
-    /* border: 1px solid grey; */
+.b6 a i{
+    color: rgb(156, 64, 21);
+    text-decoration: none;
 }
 @media screen AND (max-width:700px) {
     .b4{
