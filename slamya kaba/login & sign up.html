@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -13,20 +13,90 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="" href="fontawesome-free-6.2.1-web/css/all.min.css">
+    <script src="fontawesome-free-6.2.1-web/js/all.min.js"> </script>
     <title>LogIn & SignUp </title>
 </head>
 <body>
     <style>
-
+        .l1{
+            border-bottom: 2px solid #562B08;
+            margin-right: 5%;
+            font-family: bold;
+        }
+        .l1 a{
+            text-decoration: none;
+            color: #562B08;
+            font-family: bold;
+        }
+        .l2{
+            padding: 3%;
+            border-bottom: 2px solid rgb(90, 90, 90);
+            border-top: 0px solid white;
+            border-left: 0px solid white;
+            border-right: 0px solid white;
+        }
+        .l3{
+            padding-left: 8%;
+            padding-right: 8%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            background-color: #562B08;
+            color: white;
+        }
+        .l3:hover{
+            color: white;
+        }
+        .l4{
+            font-family: bold;
+            
+        }
+        .icon{
+            font-size: 20px;
+            color: #562B08;
+        }
     </style>
 
-    <div>
-        <div class="container">
-            <
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <img src="asset/logIn.png" class="bg-warning" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5">
+                    <div class="ms-5">
+                        <h4><b style="color: #562B08;">SalamYa Kabba</b></h4>
+                        <div class="d-flex mt-2">
+                            <button class="btn l1"><a href="">Log In</a></button>
+                            <button class="btn l1"><a href="">Register</a></button>
+                        </div>
+                        <p class="mt-3">Use your credentials to login into account.</p>
+                        <div>
+                            <i class="fa-solid fa-envelope icon"></i>
+                            <input class="l2" type="text" placeholder="Email Address" >
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-lock icon"></i>
+                            <input class="l2" type="text" placeholder="Password">
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <button class="btn  mt-3 l3">LogIn</button>
+                            <p class=" pt-3 ms-3 l4">Forget Password</p>
+                        </div>
+                        <br><br>
+                        <div>
+                            <center>or login with</center>
+                            <div class="d-flex">
+                                <p>Facebook</p>
+                                <p>Google</p>
+                                <p>Twitter</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-
-
 
 
 
