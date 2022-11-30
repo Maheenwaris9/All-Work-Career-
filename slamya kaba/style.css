@@ -61,7 +61,7 @@
 
 /* header */
 .head1{
-    background-image: url("asset/img1.jpg");
+    background-image: url("asset/img/img1.jpg");
     background-color: black;
     background-repeat: no-repeat;
     /* background-position: center; */
@@ -168,7 +168,7 @@
 
 /* footer */
 .footmain{
-    background-image: url("asset/img2.jpg");
+    background-image: url("asset/img/img2.jpg");
     height: 70vh;
     background-size: cover;
     background-position: center;
@@ -215,4 +215,108 @@
         text-align: center;
     } 
     
+}
+
+
+
+
+
+.lmain {
+    margin-top: 10%;
+    margin-right: 20%;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+.l1 {
+    border-bottom: 2px solid #562B08;
+    margin-right: 5%;
+    font-family: bold;
+}
+.l1  a {
+    outline: none;
+}  
+.l1 a {
+    text-decoration: none;
+    color: #562B08;
+    font-family: bold;
+}
+.linput{
+    border-bottom: 2px solid rgb(90, 90, 90);
+    padding-left: 2%;
+    width: 75%;
+}
+.l2 {
+    margin-top: 4%;
+    padding: 3%;
+    border: 0px solid transparent;
+}
+.linput Input{
+    border: none;
+    outline:none;
+}
+.linput Input:active{
+    border: none;
+    outline:none;
+}
+.l3 {
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #562B08;
+    color: white;
+}
+.btn a{
+    outline: none;
+}
+.l3:hover {
+    color: white;
+}
+.l4 {
+    font-family: bold;
+}
+.icon {
+    font-size: 20px;
+    color: #562B08;
+}
+.l5 p {
+    margin-left: 25%;
+}
+.l5 a {
+    text-decoration: none;
+    color: #562B08;
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.l5 a:hover {
+    border-bottom: 2px solid #562B08;
+}
+.l6 {
+    margin-top: 3%;
+    margin-left: 5%;
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #562B08;
+    color: white;
+}
+.l6:hover {
+    color: white;
+}
+.l7 p {
+    margin-left: 17%;
+}
+.l7 a {
+    text-decoration: none;
+    color: #562B08;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.l7 a:hover {
+    border-bottom: 1px solid #562B08;
 }
