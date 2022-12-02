@@ -19,15 +19,16 @@
     <title>Talemy</title>
 </head>
 <body>
+
     <!-- navbar -->
     <div class="main1">
         <nav class="navbar navbar-expand-lg nb1">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="asset/Image/img12/nav-icon.png"></a>
                 <button class="btn navbtn text-white nbBtn3"> LOGIN | REGISTER </button>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler nbrepo" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon nbBtn1">✯</span>
-                 </button>
+                </button>
                  <div class="collapse navbar-collapse nb2" id="navbarNav">
                      <ul class="navbar-nav">
                          <li class="nav-item">
@@ -56,6 +57,7 @@
                  <button class="btn navbtn text-white nbBtn2"> LOGIN | REGISTER </button>
             </div>
         </nav>
+
         <!-- Hero section -->
         <div class="">
             <div class="hs1">
@@ -68,7 +70,7 @@
                 <button class="btn hsBtn1">GET STARTED</button>
                 <button class="btn hsBtn2">FREE TRIAL</button>
             </div>
-            <a href=""><img class="hsImg" src="asset/Image/img12/scroll-down.png"></a>
+            <a href="#form1"><img class="hsImg" src="asset/Image/img12/scroll-down.png"></a>
         </div>
     </div>
 
@@ -101,7 +103,7 @@
                 <br>
         </div>
         <div class="col-md-5 a7">
-            <div class="form a1">
+            <div class="form a1" id="form1">
                 <h5>𝖱𝖾𝗀𝗂𝗌𝗍𝖾𝗋 & 𝖦𝖾𝗍 </h5>
                 <h2><b>Free</b> <b style="color: #D22F2F;">Courses</b></h2>
                 <p>You think water moves fast? You should see ice. It moves like it has a mind.</p>
@@ -137,6 +139,7 @@
         </div>
     </div>
 
+    <!-- countdown -->
     <script>
         let valueDisplay = document.querySelectorAll(".num");
         let interval = 80;
@@ -155,22 +158,105 @@
         });
     </script>
 
-<script>
-    const passwordEle = document.getElementById('password');
-const toggleEle = document.getElementById('toggle');
+    <!-- form password input -->
+    <script>
+        const passwordEle = document.getElementById('password');
+    const toggleEle = document.getElementById('toggle');
+    
+    toggleEle.addEventListener('click', function () {
+        const type = passwordEle.getAttribute('type');
+    
+        passwordEle.setAttribute(
+            'type',
+            type === 'password' ? 'text' : 'password'
+        );
+    });
+    </script>
 
-toggleEle.addEventListener('click', function () {
-    const type = passwordEle.getAttribute('type');
-
-    passwordEle.setAttribute(
-        'type',
-        type === 'password' ? 'text' : 'password'
-    );
-});
-</script>
 
 
 
+
+    <br><br>
+    <!-- Footer -->
+    <div class="container-fluid mainf">
+        <div class="container ">
+            <div class="container f1">
+                <div class="">
+                    <img src="asset/Image/img12/nav-icon.png">
+                </div>
+                <div class="footicon">
+                    <a href=""><i class="fa-brands fa-facebook-f p-2"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter p-2"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram p-2"></i></a>
+                    <a href=""><i class="fa-brands fa-pinterest-p p-2"></i></a>
+                </div>
+            </div>
+            <hr><br>
+            <div class="container f2">
+                <div class="col-md-5 me-5">
+                    <h5 class="text-light"><b>𝖠𝖻𝗈𝗎𝗍 𝖢𝗈𝗎𝗋𝗌𝖾</b></h5>
+                    <br>
+                    <p>Talemy is your ideal education WordPress theme for sharing and selling your knowledge online. Teach what you love. Talemy gives you the tools to create an online course.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-light"><b>𝖦𝖤𝖳 𝖨𝖭 𝖳𝖮𝖴𝖢𝖧</b></h5>
+                    <br>
+                    <div class="d-flex">
+                        <i class="fa-solid fa-location-dot f2a p-1"></i>
+                        <p>205 West 21th Street, MIAMI FL, USA</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa-solid fa-phone f2a p-1"></i>
+                        <p> (800) 123-4567</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa-solid fa-envelope f2a p-1"></i>
+                        <p>info@talemy.com</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="text-light"><b>𝖶𝗈𝗋𝗄𝗂𝗇𝗀 𝖧𝗈𝗎𝗋</b></h5>
+                    <br>
+                    <div class="d-flex justify-content-between">
+                        <p>𝖬𝗈𝗇𝖽𝖺𝗒 - 𝖥𝗋𝗂𝖽𝖺𝗒</p>
+                        <p class="text-light">8:00 𝖺𝗆 - 16.00 𝗉𝗆</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p>𝖲𝖺𝗍𝗎𝗋𝖽𝖺𝗒</p>
+                        <p class="text-light">10:00 𝖺𝗆 - 14.00 𝗉𝗆</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p>𝖲𝗎𝗇𝖽𝖺𝗒</p>
+                        <p class="text-light">9:00 𝖺𝗆 - 12.00 𝗉𝗆</p>
+                    </div>
+                </div>
+            </div>
+            <hr><br>
+            <div class="container f3 justify-content-center align-items-center">
+                <div class="f5 justify-content-center align-items-center">
+                    <div class="d-flex NewsLetter">
+                        <i class="fa-solid fa-envelope-open-text f3a"></i>
+                        <h3 class="f3b">𝖮𝖴𝖱 𝖭𝖤𝖶𝖲𝖫𝖤𝖳𝖳𝖤𝖱</h3>
+                    </div>
+                    <div class="d-flex f3c justify-content-center align-items-center">
+                        <input type="text" placeholder="𝖤-𝗆𝖺𝗂𝗅 𝖠𝖽𝖽𝗋𝖾𝗌𝗌" class=" form-control f3d">
+                        <button class="btn f3e">𝖲𝖴𝖡𝖲𝖢𝖱𝖨𝖡𝖤 𝖭𝖮𝖶</button>
+                    </div>
+                </div>
+            </div>
+            <br><hr><br>
+            <div class="container f4">
+                <div>
+                    <p>© 2022 <b style="color:#D22F2F;">TALEMY DEMO ONE COURSE</b>. ALL RIGHTS RESERVED.</p>
+                </div>
+                <div class="f4a">
+                    <p>SCROLL TO TOP</p>
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
 
 
 
